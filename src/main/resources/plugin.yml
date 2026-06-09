@@ -1,0 +1,15 @@
+name: DonutTools
+version: '3.0'
+main: de.elivb.donutTools.Tools
+api-version: '1.21'
+author: ᴇʟɪᴠʙ
+website: https://discord.gg/kEDAdrFRYa
+description: ᴛᴏᴏʟꜱ ᴘʟᴜɢɪɴ ʟɪᴋᴇ ᴅᴏɴᴜᴛꜱᴍᴘ
+softdepend: [WorldGuard]
+folia-supported: true
+
+commands:
+  tool:
+    aliases: [tools,dt]
+    permission: tools.admin
+

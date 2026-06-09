@@ -1,0 +1,36 @@
+title: "&8ᴛᴏᴏʟꜱ"
+rows: 3
+
+#Fill-Material Settings
+fill:
+  enabled: false
+  material: "BLACK_STAINED_GLASS_PANE"
+  display-name:
+  slots: "0-8,18-26"
+
+#You can change the slots of the Tools here
+#If you change the slots, make sure that no two tools have the same slot
+Tools:
+  Drill-slot: 11
+  treechopper-slot: 12
+  shovel-slot: 13
+  hoe-slot: 14
+  enderpearl-slot: 15
+  rocket-slot: 16
+  waterbucket-slot: 10
+  lavabucket-slot: 9
+
+#Here you can configure the close button
+Close-button:
+  material: RED_STAINED_GLASS_PANE
+  display-name: "&#FF0000ᴄʟᴏꜱᴇ"
+  lore:
+    - "&fclick to close"
+  slot: 18
+
+#Here you can change the sounds
+sounds:
+  close-sound: "ui.button.click"
+  inventory-full-sound: "entity.villager.no"
+  tool-given-sound: "entity.experience_orb.pickup"
+  reload-sound: "entity.player.levelup"
