@@ -52,7 +52,7 @@ public class Tools extends JavaPlugin implements TabCompleter {
       this.licenseManager = new LicenseManager(this);
       if (this.licenseManager.validateLicenseOnStartup()) {
          this.plotService = new PlotService(this);
-         this.toolsFolder = new File(this.getDataFolder(), "DonutTools");
+         this.toolsFolder = new File(this.getDataFolder(), "HLSMP-Tools");
          if (!this.toolsFolder.exists()) {
             this.toolsFolder.mkdirs();
          }
