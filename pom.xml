@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.elivb</groupId>
-    <artifactId>DonutTools</artifactId>
+    <artifactId>HLSMP-Tools</artifactId>
     <version>3.0-HLSMP</version>
     <packaging>jar</packaging>
 
