@@ -279,8 +279,8 @@ public class Shovel {
          if (!loreText.isEmpty()) {
             loreList.add(loreText);
          } else {
-            loreList.add("&7Breaks 9 Blocks at Once");
-            loreList.add("&8Self Destruct:");
+            loreList.add("&7Phá 3x3 mỗi lần đào");
+            loreList.add("&8Hạn sử dụng:");
             loreList.add("&8%durability%");
          }
       }
