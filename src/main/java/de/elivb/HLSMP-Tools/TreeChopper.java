@@ -272,8 +272,8 @@ public class TreeChopper {
          if (!loreText.isEmpty()) {
             loreList.add(loreText);
          } else {
-            loreList.add("&7Breaks Trees instantly");
-            loreList.add("&8Self Destruct:");
+            loreList.add("&7Chặt cả cây mỗi lần đốn");
+            loreList.add("&8Hạn sử dụng:");
             loreList.add("&8%durability%");
          }
       }
