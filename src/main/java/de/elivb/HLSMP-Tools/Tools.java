@@ -273,8 +273,8 @@ public class Tools extends JavaPlugin implements TabCompleter {
          if (toolName.equals("drill")) {
             config.set("name", "&#A20AD6ᴀᴍᴇᴛʜʏꜱᴛ ᴘɪᴄᴋᴀxᴇ");
             List<String> drillLore = new ArrayList();
-            drillLore.add("&7Breaks 9 Blocks at Once");
-            drillLore.add("&8Self Destruct:");
+            drillLore.add("&7Phá 3x3 mỗi lần đào");
+            drillLore.add("&8Hạn sử dụng:");
             drillLore.add("&8%durability%");
             config.set("lore", drillLore);
             config.set("custom-model-data", 1000);
@@ -302,8 +302,8 @@ public class Tools extends JavaPlugin implements TabCompleter {
          } else if (toolName.equals("treechopper")) {
             config.set("name", "&#A20AD6ᴀᴍᴇᴛʏꜱᴛ ᴀxᴇ");
             List<String> treeLore = new ArrayList();
-            treeLore.add("&7Breaks Trees instantly");
-            treeLore.add("&8Self Destruct:");
+            treeLore.add("&7Chặt cả cây mỗi lần đốn");
+            treeLore.add("&8Hạn sử dụng:");
             treeLore.add("&8%durability%");
             config.set("lore", treeLore);
             config.set("custom-model-data", 1000);
@@ -332,8 +332,8 @@ public class Tools extends JavaPlugin implements TabCompleter {
          } else if (toolName.equals("shovel")) {
             config.set("name", "&#A20AD6ᴀᴍᴇᴛʏꜱᴛ ꜱʜᴏᴠᴇʟ");
             List<String> shovelLore = new ArrayList();
-            shovelLore.add("&7Breaks 9 Blocks at Once");
-            shovelLore.add("&8Self Destruct:");
+            shovelLore.add("&7Phá 3x3 mỗi lần đào");
+            shovelLore.add("&8Hạn sử dụng:");
             shovelLore.add("&8%durability%");
             config.set("lore", shovelLore);
             config.set("custom-model-data", 1000);
@@ -361,8 +361,8 @@ public class Tools extends JavaPlugin implements TabCompleter {
          } else if (toolName.equals("hoe")) {
             config.set("name", "&#A20AD6ᴀᴍᴇᴛʏꜱᴛ ʜᴏᴇ");
             List<String> hoeLore = new ArrayList();
-            hoeLore.add("&7Plant 9 Blocks at once");
-            hoeLore.add("&8Self Destruct:");
+            hoeLore.add(" &7Cuốc 9 khối cùng một lúc");
+            hoeLore.add("&8Hạn sử dụng:");
             hoeLore.add("&8%durability%");
             config.set("lore", hoeLore);
             config.set("custom-model-data", 1000);
