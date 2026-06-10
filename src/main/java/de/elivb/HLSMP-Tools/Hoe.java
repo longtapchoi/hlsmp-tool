@@ -216,8 +216,8 @@ public class Hoe {
          if (!loreText.isEmpty()) {
             loreList.add(loreText);
          } else {
-            loreList.add("&7Plant 9 Blocks at once");
-            loreList.add("&8Self Destruct:");
+            loreList.add("&7Cuốc 3x3 khối cùng một lúc");
+            loreList.add("&8Hạn sử dụng:");
             loreList.add("&8%durability%");
          }
       }
