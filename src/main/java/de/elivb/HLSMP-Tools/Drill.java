@@ -71,7 +71,7 @@ public class Drill {
       String mode = this.config.getString("durability.mode", "time").toLowerCase();
       this.durabilityMode = Drill.DurabilityMode.fromString(mode);
       this.maxUses = this.config.getInt("durability.uses", 100);
-      this.timeDuration = this.config.getString("durability.time", "3d");
+      this.timeDuration = this.config.getString("durability.time", "7d");
       this.durationMillis = this.parseDuration(this.timeDuration);
       String convertTo = this.config.getString("durability.convert-to", "NETHERITE_PICKAXE");
       this.convertToMaterial = Material.matchMaterial(convertTo) != null ? Material.matchMaterial(convertTo) : Material.NETHERITE_PICKAXE;
