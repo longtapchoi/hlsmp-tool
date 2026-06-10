@@ -62,7 +62,7 @@ public class TreeChopper {
       this.timeWarnedKey = new NamespacedKey(plugin, "treechopper_time_warned");
       this.usesWarnedKey = new NamespacedKey(plugin, "treechopper_uses_warned");
       this.ownerKey = new NamespacedKey(plugin, "treechopper_owner");
-      String materialName = this.config.getString("material", "DIAMOND_AXE");
+      String materialName = this.config.getString("material", "NETHERITE_AXE");
       Material tempMaterial = Material.matchMaterial(materialName);
       this.material = tempMaterial == null ? Material.DIAMOND_AXE : tempMaterial;
       this.customModelData = this.config.getInt("custom-model-data", 1002);
